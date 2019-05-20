@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>购物车</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/cart.css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="topcen">
+            <div class="loginInfo fl" id="nologin">
+                <a href="login.html">登陆</a>
+                <span>|</span>
+                <a href="register.html">注册</a>
+            </div>
+            <div id="haslogin" class="loginInfo fl">
+                <a href="javascript:;" id="tels"></a>
+                <span>|</span>
+                <a href="javascript:;" id="out">退出</a>
+            </div>
+            <div class="cartInfo fr">
+                <ul>
+                    <li>
+                        <a href="#">购物车<strong>0</strong>件</a></li>
+                    <li><a href="">我的订单</a></li>
+                    <li><a href="#">用户中心</a></li>
+                    <li><a href="#">帮助</a></li>
+                    <li><a href="#">提建议</a></li>
+                    <li><a href="#">微博</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="main" class="main">
+        <div>
+            <h1 class="fl">我的购物车</h1>
+            <b>单笔订单满100元免运费（香港、澳门、台湾、钓鱼岛地区和拆分订单除外）</b>
+            <a id="ASettlement" class="aa" href="javascript: layer.msg('您的购物车内还没有要结算的商品，请选中购买！');" class="fr cbtn check_btn"></a>
+        </div>
+        <div id="orderbox">
+            <dl>
+                <dt class="car_box">
+                    <span class="all_check">
+                        <input type="checkbox" name="" value="">
+                        全选</span>
+                    <span class="s1">商品</span>
+                    <span class="s2">单价</span>
+                    <span class="s3">优惠</span>
+                    <span class="s4">数量</span>
+                    <span class="s5">小计</span>
+                    <span class="s6">操作</span>
+                </dt>
+                <dd id="car_good">
+                    <div id="orders" style="height: auto; overflow:hidden">
+                        <!-- <div class="goods">
+                            <ul>
+                                <li>
+                                    <div id="son_checkbox">
+                                        <input type="checkbox" name="" value="">
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" title="英国 吉拉「预言」 重泥煤单一麦芽威士忌700ml"><img src="../images/car.jpg" alt=""></a></li>
+                                <li>
+                                    <a href="#" style="color:#06c;">英国 吉拉「预言」 重泥煤单一麦芽威士忌700ml短时间内放技能放到数据库</a>
+                                </li>
+                                <li>
+                                    ￥558
+                                </li>
+                                <li>-</li>
+                                <li>
+                                    <div id="num">
+                                        <span>-</span>
+                                        <input type="text" name="" value="" placeholder="">
+                                        <span>+</span>
+                                    </div>
+                                </li>
+                                <li>￥558.00</li>
+                                <li>
+                                    <span>
+                                        <a href="">收藏</a>
+                                    </span>
+                                    &emsp;
+                                    <span>
+                                        <a href="">删除</a>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div> -->
+                    </div>
+                </dd>
+            </dl>
+            <dl class="strock">
+                <dt>
+                    <p>电子券在“去结算”页面中使用</</p> </dt> <dd>
+                        <ul>
+                            <li>
+                                <span>
+                                    <input type="checkbox" name="" value="" class="all">
+                                    全选
+                                </span>
+                                <span class="ml30"><a href="#" class="del"></a></span>
+                                <span class="ml30"><a href="#" class="del">清空购物车</a></span>
+                                <span>应付商品金额：<strong id="zjg">￥0</strong></span>
+                            </li>
+                        </ul>
+                        </dd>
+            </dl>
+        </div>
+        <div class="cart_btn">
+            <a href="#" id="ABack" class="fl gono_btn">继续购物</a>
+            <span class="fl tip">商品价格和库存请以订单提交时为准</span>
+            <a id="ASettlement1" class="aa" href="javascript: layer.msg('您的购物车内还没有要结算的商品，请选中购买！');" class="fr cbtn check_btn"></a>
+        </div>
+        <dl class="other">
+            <dt><h2>你可能还需要</h2></dt>
+            <dd>
+                <ul>
+                    <li class=" other_pic"><a href="#"><img src="../images/other1.jpg" alt=""></a></li>
+                    <li class="other_name">
+                        <a href="http://www.gjw.com/product/item-id-6034.htm" target="_blank" title="【整箱装】53度 习酒 红习酱 500ml*6瓶">
+                                【整箱装】53度 习酒 红习酱 500ml*6瓶</a>
+                    </li>
+                    <li class="other_price">
+                        ￥788
+                    </li>
+                    <li class="other_btn">
+                        <a href="#" class="fl"></a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class=" other_pic"><a href="#"><img src="../images/other1.jpg" alt=""></a></li>
+                    <li class="other_name">
+                        <a href="http://www.gjw.com/product/item-id-6034.htm" target="_blank" title="【整箱装】53度 习酒 红习酱 500ml*6瓶">
+                                【整箱装】53度 习酒 红习酱 500ml*6瓶</a>
+                    </li>
+                    <li class="other_price">
+                        ￥788
+                    </li>
+                    <li class="other_btn">
+                        <a href="#" class="fl"></a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class=" other_pic"><a href="#"><img src="../images/other1.jpg" alt=""></a></li>
+                    <li class="other_name">
+                        <a href="http://www.gjw.com/product/item-id-6034.htm" target="_blank" title="【整箱装】53度 习酒 红习酱 500ml*6瓶">
+                                【整箱装】53度 习酒 红习酱 500ml*6瓶</a>
+                    </li>
+                    <li class="other_price">
+                        ￥788
+                    </li>
+                    <li class="other_btn">
+                        <a href="#" class="fl"></a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class=" other_pic"><a href="#"><img src="../images/other1.jpg" alt=""></a></li>
+                    <li class="other_name">
+                        <a href="http://www.gjw.com/product/item-id-6034.htm" target="_blank" title="【整箱装】53度 习酒 红习酱 500ml*6瓶">
+                                【整箱装】53度 习酒 红习酱 500ml*6瓶</a>
+                    </li>
+                    <li class="other_price">
+                        ￥788
+                    </li>
+                    <li class="other_btn">
+                        <a href="#" class="fl"></a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class=" other_pic"><a href="#"><img src="../images/other1.jpg" alt=""></a></li>
+                    <li class="other_name">
+                        <a href="http://www.gjw.com/product/item-id-6034.htm" target="_blank" title="【整箱装】53度 习酒 红习酱 500ml*6瓶">
+                                【整箱装】53度 习酒 红习酱 500ml*6瓶</a>
+                    </li>
+                    <li class="other_price">
+                        ￥788
+                    </li>
+                    <li class="other_btn">
+                        <a href="#" class="fl"></a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class=" other_pic"><a href="#"><img src="../images/other1.jpg" alt=""></a></li>
+                    <li class="other_name">
+                        <a href="http://www.gjw.com/product/item-id-6034.htm" target="_blank" title="【整箱装】53度 习酒 红习酱 500ml*6瓶">
+                                【整箱装】53度 习酒 红习酱 500ml*6瓶</a>
+                    </li>
+                    <li class="other_price">
+                        ￥788
+                    </li>
+                    <li class="other_btn">
+                        <a href="#" class="fl"></a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class=" other_pic"><a href="#"><img src="../images/other1.jpg" alt=""></a></li>
+                    <li class="other_name">
+                        <a href="http://www.gjw.com/product/item-id-6034.htm" target="_blank" title="【整箱装】53度 习酒 红习酱 500ml*6瓶">
+                                【整箱装】53度 习酒 红习酱 500ml*6瓶</a>
+                    </li>
+                    <li class="other_price">
+                        ￥788
+                    </li>
+                    <li class="other_btn">
+                        <a href="#" class="fl"></a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class=" other_pic"><a href="#"><img src="../images/other1.jpg" alt=""></a></li>
+                    <li class="other_name">
+                        <a href="http://www.gjw.com/product/item-id-6034.htm" target="_blank" title="【整箱装】53度 习酒 红习酱 500ml*6瓶">
+                                【整箱装】53度 习酒 红习酱 500ml*6瓶</a>
+                    </li>
+                    <li class="other_price">
+                        ￥788
+                    </li>
+                    <li class="other_btn">
+                        <a href="#" class="fl"></a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class=" other_pic"><a href="#"><img src="../images/other1.jpg" alt=""></a></li>
+                    <li class="other_name">
+                        <a href="http://www.gjw.com/product/item-id-6034.htm" target="_blank" title="【整箱装】53度 习酒 红习酱 500ml*6瓶">
+                                【整箱装】53度 习酒 红习酱 500ml*6瓶</a>
+                    </li>
+                    <li class="other_price">
+                        ￥788
+                    </li>
+                    <li class="other_btn">
+                        <a href="#" class="fl"></a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class=" other_pic"><a href="#"><img src="../images/other1.jpg" alt=""></a></li>
+                    <li class="other_name">
+                        <a href="http://www.gjw.com/product/item-id-6034.htm" target="_blank" title="【整箱装】53度 习酒 红习酱 500ml*6瓶">
+                                【整箱装】53度 习酒 红习酱 500ml*6瓶</a>
+                    </li>
+                    <li class="other_price">
+                        ￥788
+                    </li>
+                    <li class="other_btn">
+                        <a href="#" class="fl"></a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class=" other_pic"><a href="#"><img src="../images/other1.jpg" alt=""></a></li>
+                    <li class="other_name">
+                        <a href="http://www.gjw.com/product/item-id-6034.htm" target="_blank" title="【整箱装】53度 习酒 红习酱 500ml*6瓶">
+                                【整箱装】53度 习酒 红习酱 500ml*6瓶</a>
+                    </li>
+                    <li class="other_price">
+                        ￥788
+                    </li>
+                    <li class="other_btn">
+                        <a href="#" class="fl"></a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class=" other_pic"><a href="#"><img src="../images/other1.jpg" alt=""></a></li>
+                    <li class="other_name">
+                        <a href="http://www.gjw.com/product/item-id-6034.htm" target="_blank" title="【整箱装】53度 习酒 红习酱 500ml*6瓶">
+                                【整箱装】53度 习酒 红习酱 500ml*6瓶</a>
+                    </li>
+                    <li class="other_price">
+                        ￥788
+                    </li>
+                    <li class="other_btn">
+                        <a href="#" class="fl"></a>
+                    </li>
+                </ul>
+            </dd>
+        </dl>
+    </div>
+    <div class="footer">
+        <img src="../images/sanBao_07.gif" alt="">
+        <div class="links">
+            <a href="http://www.gjw.com/jituan/default.html" target="_blank">关于我们</a> <span>|</span> <a href="http://www.gjw.com/help/show-id-18.htm" target="_blank">联系我们</a> <span>|</span> <a href="http://www.gjw.com/help/show-id-19.htm" target="_blank">
+            友情链接</a> <span>|</span> <a href="http://www.gjw.com/help/show-id-20.htm" target="_blank">隐私声明</a>
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright® 2009-2019 gjw.com, All Rights Reserved 购酒网(上海)供应链管理有限公司 版权所有</p>
+        </div>
+        <div class="authentication">
+            <a class="beian" href="http://www.miibeian.gov.cn/" target="_blank"></a>
+            <a class="depart" target="_blank" href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=20120216155829987"></a>
+        </div>
+    </div>
+</body>
+<script src= "../lib/jquery-1.10.1.min.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/cart.js"></script>
+</html>

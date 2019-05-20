@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>列表页</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../lib/layui/css/layui.css">
+    <link rel="stylesheet" type="text/css" href="../iconfont/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="../css/list.css" charset="utf-8">
+</head>
+
+<body>
+    <div id="top_nav">
+    </div>
+    <div class="list_main">
+        <div id="bar">
+        </div>
+        <div class="searchbox clearfix" id="winwtype">
+            <div class="search-has fl">
+                <span>白酒</span>
+                有<em>100</em>
+                条相关信息
+            </div>
+            <div class="condition fl">
+                <span class="mr30 fl">已选条件:&nbsp;</span>
+                <div id="xeq" style="display:none;">
+                     <a href="#" class="select fl" style="border-left: 0;">
+                        <em>白酒</em>
+                        &nbsp;
+                        <span>✖</span>
+                    </a>
+                </div>
+                    <a href="#" class="select fl">
+                        <em>白酒</em>
+                        &nbsp;
+                        <span>✖</span>
+                    </a>
+            </div>
+            <div class="search-rqpp fl" data-id="01">
+                <div class="rqpp_tit fl">
+                    人气品牌:
+                </div>
+                <ul class="rqpp-table clearfix" style="height: auto; max-height: none; padding: 0px;">
+                    <li><a href="javascript:;">茅台</a></li>
+                    <li><a href="javascript:;">五粮液</a></li>
+                    <li><a href="javascript:;">剑南春</a></li>
+                    <li><a href="javascript:;">泸州老窖</a></li>
+                    <li><a href="javascript:;">郎酒</a></li>
+                    <li><a href="javascript:;">洋河</a></li>
+                    <li><a href="javascript:;">汾酒</a></li>
+                    <li><a href="javascript:;">酒鬼</a></li>
+                    <li><a href="javascript:;">习酒</a></li>
+                    <li><a href="javascript:;">水井坊</a></li>
+                    <li><a href="javascript:;">西凤</a></li>
+                    <li><a href="javascript:;">珍酒</a></li>
+                    <li><a href="javascript:;">古井贡酒</a></li>
+                    <li><a href="javascript:;">舒心</a></li>
+                    <li><a href="javascript:;">白云边</a></li>
+                    <li><a href="javascript:;">景芝</a></li>
+                    <li><a href="javascript:;">牛栏山</a></li>
+                    <li><a href="javascript:;">舍得</a></li>
+                    <li><a href="javascript:;">沱牌</a></li>
+                    <li><a href="javascript:;">金六福</a></li>
+                    <li><a href="javascript:;">口子窖</a></li>
+                    <li><a href="javascript:;">伊力牌</a></li>
+                    <li><a href="javascript:;">小糊涂仙</a></li>
+                    <li><a href="javascript:;">今世缘</a></li>
+                    <li><a href="javascript:;">四特</a></li>
+                    <li><a href="javascript:;">国台</a></li>
+                    <li><a href="javascript:;">衡水老白干</a></li>
+                    <li><a href="javascript:;">枝江</a></li>
+                    <li><a href="javascript:;">文君酒</a></li>
+                    <li class="brother"><a href="javascript:;">董酒</a></li>
+                    <li><a href="javascript:;">迎驾</a></li>
+                    <li><a href="javascript:;">黄鹤楼</a></li>
+                    <li><a href="javascript:;">太白酒</a></li>
+                    <li><a href="javascript:;">天下福</a></li>
+                    <li><a href="javascript:;">苏酒</a></li>
+                    <li><a href="javascript:;">红星</a></li>
+                    <li><a href="javascript:;">杜康</a></li>
+                    <li><a href="javascript:;">孔府家</a></li>
+                    <li><a href="javascript:;">稻花香</a></li>
+                    <li><a href="javascript:;">皖酒</a></li>
+                    <li><a href="javascript:;">扳倒井</a></li>
+                    <li><a href="javascript:;">金门高粱酒</a></li>
+                    <li><a href="javascript:;">双沟</a></li>
+                    <li><a href="javascript:;">全兴</a></li>
+                    <li><a href="javascript:;">百年传奇</a></li>
+                    <li><a href="javascript:;">金泸老窖</a></li>
+                    <li><a href="javascript:;">福成酒</a></li>
+                    <li><a href="javascript:;">燃點</a></li>
+                    <li><a href="javascript:;">八大怪</a></li>
+                    <li><a href="javascript:;">四大美女</a></li>
+                    <li><a href="javascript:;">湘泉</a></li>
+                    <li><a href="javascript:;">一同发财</a></li>
+                    <li><a href="javascript:;">欣雨</a></li>
+                    <li><a href="javascript:;">玉水金尊</a></li>
+                    <li><a href="javascript:;">炸弹</a></li>
+                    <li><a href="javascript:;">农垦大粮仓</a></li>
+                    <li><a href="javascript:;">赖莊</a></li>
+                    <li><a href="javascript:;">老酒坊</a></li>
+                    <li><a href="javascript:;">豫皖酒</a></li>
+                    <li><a href="javascript:;">开国酒业</a></li>
+                    <li><a href="javascript:;">古窖酒业</a></li>
+                    <li><a href="javascript:;">岳池特曲</a></li>
+                    <li><a href="javascript:;">同须醉</a></li>
+                    <li><a href="javascript:;">天佑德</a></li>
+                    <li><a href="javascript:;">国之</a></li>
+                    <li><a href="javascript:;">小房子</a></li>
+                    <li><a href="javascript:;">南泉王</a></li>
+                    <li><a href="javascript:;">福进门</a></li>
+                    <li><a href="javascript:;">太极世家</a></li>
+                    <li><a href="javascript:;">宣府</a></li>
+                    <li><a href="javascript:;">三曹酒</a></li>
+                    <li><a href="javascript:;">红楼梦</a></li>
+                    <li><a href="javascript:;">河套</a></li>
+                    <li><a href="javascript:;">青酒</a></li>
+                    <li><a href="javascript:;">小酒人生</a></li>
+                    <li><a href="javascript:;">泓誉</a></li>
+                    <li><a href="javascript:;">茅山</a></li>
+                    <li><a href="javascript:;">永丰牌</a></li>
+                    <li><a href="javascript:;">宇博青稞酒</a></li>
+                    <li><a href="javascript:;">钓鱼台</a></li>
+                </ul>
+                <div class="rtbox fr">
+                    <div class="rqpp-more fr active" id="takeback">展开ν</div>
+                </div>
+            </div>
+            <div class="search-cd fl"  data-id="02">
+                <div class="search-cd-tit fl">
+                    产地:
+                </div>
+                <ul class="cd-table fl" id="add">
+                    <li><a rel="nofollow" href="javascript:;">贵州</a></li>
+                    <li><a rel="nofollow" href="javascript:;">四川</a></li>
+                    <li><a rel="nofollow" href="javascript:;">山西</a></li>
+                    <li><a rel="nofollow" href="javascript:;">江苏</a></li>
+                    <li><a rel="nofollow" href="javascript:;">安徽</a></li>
+                    <li><a rel="nofollow" href="javascript:;">北京</a></li>
+                    <li><a rel="nofollow" href="javascript:;">内蒙古</a></li>
+                    <li><a rel="nofollow" href="javascript:;">山东</a></li>
+                    <li><a rel="nofollow" href="javascript:;">河北</a></li>
+                    <li><a rel="nofollow" href="javascript:;">湖南</a></li>
+                    <li><a rel="nofollow" href="javascript:;">新疆</a></li>
+                    <li><a rel="nofollow" href="javascript:;">湖北</a></li>
+                    <li><a rel="nofollow" href="javascript:;">黑龙江</a></li>
+                    <li><a rel="nofollow" href="javascript:;">江西</a></li>
+                    <li><a rel="nofollow" href="javascript:;">陕西</a></li>
+                    <li><a rel="nofollow" href="javascript:;">吉林</a></li>
+                    <li><a rel="nofollow" href="javascript:;">广东</a></li>
+                    <li><a rel="nofollow" href="javascript:;">河南</a></li>
+                    <li><a rel="nofollow" href="javascript:;">台湾</a></li>
+                    <li><a rel="nofollow" href="javascript:;">上海</a></li>
+                    <li><a rel="nofollow" href="javascript:;">青海</a></li>
+                    <li><a rel="nofollow" href="javascript:;">西藏</a></li>
+                    <li><a rel="nofollow" href="javascript:;">重庆</a></li>
+                </ul>
+            </div>
+            <div class="search-cd fl"  data-id="03">
+                <div class="search-cd-tit fl">
+                    香型:
+                </div>
+                <ul class="cd-table fl" id="xiangxing">
+                    <li><a rel="nofollow" href="#">酱香型</a></li>
+                    <li><a rel="nofollow" href="#">浓香型</a></li>
+                    <li><a rel="nofollow" href="#">清香型</a></li>
+                    <li><a rel="nofollow" href="#">凤香型</a></li>
+                    <li><a rel="nofollow" href="#">馥郁香</a></li>
+                    <li><a rel="nofollow" href="#">董香型</a></li>
+                    <li><a rel="nofollow" href="#">特香型</a></li>
+                    <li><a rel="nofollow" href="#">芝麻香</a></li>
+                    <li><a rel="nofollow" href="#">兼香型</a></li>
+                    <li><a rel="nofollow" href="#">金门香</a></li>
+                    <li><a rel="nofollow" href="#">老干白</a></li>
+                    <li><a rel="nofollow" href="#">绵柔型</a></li>
+                    <li><a rel="nofollow" href="#">其他</a></li>
+                </ul>
+            </div>
+            <div class="search-gdxx"  >
+                <div class="search-gdxx-tit fl">更多选项:</div>
+                <ul class="gdxx-table fl" style="display: block;" id="more">
+                    <li data-id="04" class="l1">酒精度&nbsp;▼
+                        <ul class="" style="display: none;">
+                            <li><a rel="nofollow" href="javascript:;">35度以下</a></li>
+                            <li><a rel="nofollow" href="javascript:;">35-39度</a></li>
+                            <li><a rel="nofollow" href="javascript:;">40-49度</a></li>
+                            <li><a rel="nofollow" href="javascript:;">50度以上</a></li>
+                            <div style="clear: both"></div>
+                        </ul>
+                    </li>
+                    <li data-id="05" class="l2">净含量&nbsp;▼
+                        <ul class="ml" style="display: none;">
+                            <li><a rel="nofollow" href="javascript:;">475ML以下</a></li>
+                            <li><a rel="nofollow" href="javascript:;">475ML-500ML</a></li>
+                            <li><a rel="nofollow" href="javascript:;">500ML</a></li>
+                            <li><a rel="nofollow" href="javascript:;">500ML-1L</a></li>
+                            <li><a rel="nofollow" href="javascript:;">1L-1.5L</a></li>
+                            <li><a rel="nofollow" href="javascript:;">1.5L以上</a></li>
+                            <div style="clear: both"></div>
+                        </ul>
+                    </li>
+                    <li data-id="06" class="l3">价格&nbsp;▼
+                        <ul class="pri" style="display: none;">
+                            <li><a rel="nofollow" href="javascript:;">1-99</a></li>
+                            <li><a rel="nofollow" href="javascript:;">100-199</a></li>
+                            <li><a rel="nofollow" href="javascript:;">200-599</a></li>
+                            <li><a rel="nofollow" href="javascript:;">600-999</a></li>
+                            <li><a rel="nofollow" href="javascript:;">1000-1999</a></li>
+                            <li><a rel="nofollow" href="javascript:;">2000-5999</a></li>
+                            <li><a rel="nofollow" href="javascript:;">6000及以上</a></li>
+                            <div style="clear: both"></div>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="imgline"></div>
+        <div class="listbox " style="background:rgb(245,245,245);width: 100%;height: auto; padding-bottom:20px">
+            <div class="mw1">
+                <div class="list_order">
+                    <span>排序:</span>
+                    <ul class="fl" id="orderList">
+                        <li data-order="001"><a href="#">综合</a></li>
+                        <li data-order="002"><a href="#">销量</a></li>
+                        <li data-order="003"><a href="#">价格</a></li>
+                        <li data-order="004"><a href="#">评价数</a></li>
+                        <li data-order="005"><a href="#">上新时间</a></li>
+                    </ul>
+                </div>
+               <div class="nosearch" style="display:none">
+                    <span>对不起...我们没有找到和："搜索词"相关的商品</span><br>
+                    <br>
+                    <br>
+                    <a href="http://www.gjw.com">返回首页</a>
+                    <a href="http://www.gjw.com">提点意见</a>
+                </div>
+                <!-- 商品列表 -->
+                <div class="product-list">
+                    <ul class="prolist clearfix" id="product-list">
+                       <!--  <li class="proitem">
+                            <div class="itembox">
+                                <a href="#">
+                                    <div class="boximg">
+                                        <img src="../images/pl1.jpg" alt="">
+                                    </div>
+                                    <span class="itemname">53度 茅台 飞天带杯（ 2019年产 ）500ml <em>茅台飞天 自营保真</em></span>
+                                    <span class="member">
+                                        <em>会</em>
+                                        登录查看专属会员价
+                                    </span>
+                                    <span class="itemprice fl">
+                                        <em>￥</em><span>439</span>
+                                        <span>￥628 </span>
+                                    </span>
+                                </a>
+                                <a href="javascript:void(0)" class="addshopcar   fl" onclick="joinCart(35,event);">加入购物车 </a>
+                                <div class="clearfix">
+                                </div>
+                                <span class="appraise">15人评价</span>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="pagesssd" style="margin: 20px auto; width: 1178px; height: 20px; text-align: center;">
+                    <div class="pagenumbox" id="pagenumbox">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mw1" style="margin-bottom: 1px;">
+            <h3 class="everybuy">大家都在买</h3>
+            <div class="product-list">
+                <ul class="prolist clearfix">
+                    <li class="proitem">
+                        <div class="itembox">
+                            <a href="#">
+                                <div class="boximg">
+                                    <img src="../images/buy1.jpg" alt="">
+                                </div>
+                                <span class="itemname">53度 茅台 飞天带杯（ 2019年产 ）500ml <em>茅台飞天 自营保真</em></span>
+                                <span class="member">
+                                    <em>会</em>
+                                    登录查看专属会员价
+                                </span>
+                                <span class="itemprice fl">
+                                    <em>￥</em><span>439</span>
+                                    <!--<span>￥628 </span>-->
+                                </span>
+                            </a>
+                            <a href="javascript:void(0)" class="addshopcar   fl" onclick="joinCart(35,event);">加入购物车 </a>
+                            <div class="clearfix">
+                            </div>
+                            <span class="appraise">15人评价</span>
+                        </div>
+                    </li>
+                    <li class="proitem">
+                        <div class="itembox">
+                            <a href="#">
+                                <div class="boximg">
+                                    <img src="../images/buy2.jpg" alt="">
+                                </div>
+                                <span class="itemname">53度 茅台 飞天带杯（ 2019年产 ）500ml <em>茅台飞天 自营保真</em></span>
+                                <span class="member">
+                                    <em>会</em>
+                                    登录查看专属会员价
+                                </span>
+                                <span class="itemprice fl">
+                                    <em>￥</em><span>439</span>
+                                    <!--<span>￥628 </span>-->
+                                </span>
+                            </a>
+                            <a href="javascript:void(0)" class="addshopcar   fl" onclick="joinCart(35,event);">加入购物车 </a>
+                            <div class="clearfix">
+                            </div>
+                            <span class="appraise">15人评价</span>
+                        </div>
+                    </li>
+                    <li class="proitem">
+                        <div class="itembox">
+                            <a href="#">
+                                <div class="boximg">
+                                    <img src="../images/buy3.jpg" alt="">
+                                </div>
+                                <span class="itemname">53度 茅台 飞天带杯（ 2019年产 ）500ml <em>茅台飞天 自营保真</em></span>
+                                <span class="member">
+                                    <em>会</em>
+                                    登录查看专属会员价
+                                </span>
+                                <span class="itemprice fl">
+                                    <em>￥</em><span>439</span>
+                                    <!--<span>￥628 </span>-->
+                                </span>
+                            </a>
+                            <a href="javascript:void(0)" class="addshopcar   fl" onclick="joinCart(35,event);">加入购物车 </a>
+                            <div class="clearfix">
+                            </div>
+                            <span class="appraise">15人评价</span>
+                        </div>
+                    </li>
+                    <li class="proitem">
+                        <div class="itembox">
+                            <a href="#">
+                                <div class="boximg">
+                                    <img src="../images/buy4.jpg" alt="">
+                                </div>
+                                <span class="itemname">53度 茅台 飞天带杯（ 2019年产 ）500ml <em>茅台飞天 自营保真</em></span>
+                                <span class="member">
+                                    <em>会</em>
+                                    登录查看专属会员价
+                                </span>
+                                <span class="itemprice fl">
+                                    <em>￥</em><span>439</span>
+                                    <!--<span>￥628 </span>-->
+                                </span>
+                            </a>
+                            <a href="javascript:void(0)" class="addshopcar   fl" onclick="joinCart(35,event);">加入购物车 </a>
+                            <div class="clearfix">
+                            </div>
+                            <span class="appraise">15人评价</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 吸顶菜单 -->
+    <div class="fixnav" id="xiding">
+        <div class="mw">
+            <a href="#" class="fl">
+                <img src="../images/navlogo.png" alt="">
+            </a>
+            <ul class="fl">
+                <li><a href="#">首页</a></li>
+                <li><a href="#">特卖会</a></li>
+                <li><a href="#">进口馆</a></li>
+                <li><a href="#">商家采销</a></li>
+                <li><a href="#">高端收藏</a></li>
+                <li><a href="#">购酒主推</a></li>
+                <li><a href="#">尾货直批</a></li>
+            </ul>
+            <a href="#" class="fr">
+                <img src="../images/navshopcar.png" alt="">
+                <span>购物车</span>
+                <em>0</em>
+            </a>
+        </div>
+    </div>
+    <div id="footer">
+    </div>
+</body>
+<script src="../lib/jquery-1.10.1.min.js"></script>
+<script src="../js/common.js" ></script>
+<script src="../js/Addhtml.js"></script>
+<script src="../lib/layui/layui.js"></script>
+<script src="../js/list.js"></script>
+<script src="../lib/jquery.fly.min.js"></script>
+<script  src="../lib/requestAnimationFrame.js"></script>
+
+</html>
